@@ -53,8 +53,10 @@ Includes:
 - ✅ Cloud-init
 
 ## 📸 Screenshots
-![Web Page](screenshots/webpage.png)  
-![Azure Portal](screenshots/azure-portal.png)
+![Web Page](screenshots/webpage.png)  <img width="1748" height="553" alt="web" src="https://github.com/user-attachments/assets/e94b7499-5be2-442e-ac03-f0f3fae9aff7" />
+
+![Azure Portal](screenshots/azure-portal.png)<img width="1907" height="537" alt="azure_pip" src="https://github.com/user-attachments/assets/86a66288-e352-4385-beea-39de06bbcc3f" />
+
 
 > 💡 **Note**: HTTPS uses a self-signed certificate — browser shows warning. This is expected.
 
@@ -66,4 +68,5 @@ Includes:
    ```bash
    terraform init
    terraform plan -var-file="terraform.tfvars"
+
    terraform apply -var-file="terraform.tfvars"
