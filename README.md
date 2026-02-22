@@ -1,6 +1,7 @@
 # Azure Cloud Lab: Secure Web App Deployment with Terraform
 
 > **Infrastructure as Code project** — Deployed a secure Ubuntu VM with Nginx in Azure using Terraform.
+<img width="2816" height="1536" alt="Gemini_Generated_Image_zzti9zzti9zzti9z" src="https://github.com/user-attachments/assets/a82c0aad-bd1a-4be7-8e9b-a60644d89e29" />
 
 ## 🎯 Overview
 Automated deployment of a production-grade web server in Azure using Infrastructure-as-Code (IaC).  
@@ -36,4 +37,5 @@ Includes:
    terraform plan -var-file="terraform.tfvars"
 
    terraform apply -var-file="terraform.tfvars"
+
 
