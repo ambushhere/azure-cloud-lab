@@ -30,6 +30,12 @@ variable "client_secret" {
 }
 
 variable "your_ip" {
-  description = "Your IP address for SSH access"
+  description = "Your IP address in CIDR format for SSH access (example: 203.0.113.10/32)"
   type        = string
+}
+
+variable "admin_ssh_public_key" {
+  description = "SSH public key for VM admin access"
+  type        = string
+  sensitive   = true
 }

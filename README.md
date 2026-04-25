@@ -30,12 +30,13 @@ Includes:
 ## 🔧 How to Run
 1. Clone this repo
 2. Create Azure Service Principal (with Contributor role)
-3. Fill in `terraform.tfvars` with your credentials
+3. Fill in `terraform.tfvars` with your credentials:
+   - `your_ip` must be in CIDR format (example: `203.0.113.10/32`)
+   - `admin_ssh_public_key` must contain your full SSH public key
 4. Run:
    ```bash
    terraform init
    terraform plan -var-file="terraform.tfvars"
-
    terraform apply -var-file="terraform.tfvars"
-
+   ```
 
