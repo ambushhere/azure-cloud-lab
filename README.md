@@ -12,6 +12,13 @@ Includes:
 - Automated configuration via `cloud-init`
 - Self-signed SSL certificate
 
+## 📈 Result / Impact
+
+- Automated end-to-end Azure web environment provisioning with Terraform, reducing manual setup effort.
+- Enforced safer network access with NSG restrictions (IP-scoped access model).
+- Standardized VM bootstrap using cloud-init for repeatable Nginx + HTTPS configuration.
+- Demonstrated production-style IaC workflow suitable for junior cloud/DevOps portfolio validation.
+
 ## 🛠️ Technologies
 - ✅ Terraform (IaC)
 - ✅ Azure CLI
